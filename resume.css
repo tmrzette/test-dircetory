@@ -1,8 +1,12 @@
 .Box {
-    width: 20px;
-    border: 1px black;
-    margin: 1px;
-    position: relative;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    position: left;
+    margin-right: 650px;
+    font-family: serif;
+    color: orangered;
+
 }
 
 .btn {
@@ -40,4 +44,115 @@
 .topnav a.active {
     background-color: #4CAF50;
     color: white;
+}
+#about {
+    border: 3em black;
+    padding: 2em
+
+}
+#header {
+    background-color: white;
+    text-align: center;
+    padding: 3em 
+
+}
+.column {
+    float: left;
+    width: 50%;
+}
+row:after {
+    display: table;
+    clear: both
+    
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+body {
+    font-size: 12px;
+    font-family:serif ;
+    max-width:1270px;
+    margin:auto ;
+    text-align: center ;
+    padding: 25px ; 
+    background: white;
+}
+.tab {
+    width: 600px;
+     height: 200px;
+     text-align: center;
+
+}
+.intro {
+    float: left;
+    width: 50%;
+    display: table;
+    clear: both;
+    align-self: left;
+    
+}
+.about {
+
+}
+#Name {
+    width: 50%;
+    clear: both;
+    position: relative;
+    top:-400px;
+    left: 200px
+}
+.Hello {
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+    padding:50px;
+    margin: 50px;
+    width: 300px;
+    position: relative;
+    top:-450px;
+    left: 350px;
+    text-align: left;
+    
+}
+#info {
+    padding:50px;
+
+}
+#CTimg {
+    margin-right:300px;
+    margin-top:
+}
+.hey {
+    margin-left:300px;
+    color: orangered;
+    font-size: 80px
+}
+.hey2 {
+    margin-left:300px;
+    margin-bottom:400px;
+}
+.paragraphs {
+
 }
