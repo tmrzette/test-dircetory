@@ -261,6 +261,8 @@ var john = {
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////
 //Objects and Methods
+
+//Version 1.0
 /*
 var john = {
     name: 'John',
@@ -286,6 +288,9 @@ console.log(john.family[1]);
 console.log(john.calculateAge(1990);
 */
 
+/*
+//Version 2.0
+// Key/Value Pairs
 var john = {
     name: 'John',
     lastName: 'Smith',
@@ -297,11 +302,98 @@ var john = {
  
     calculateAge: function(yearOfBirth) {
     // this.yearOfBirth refers to the object var john, yearOfBirth refers to the key inside of var john.     
-        return 2016 -this.yearOfBirth;
+        //return 2016 -this.yearOfBirth;
+        this.age = 2016 - this.yearOfBirth;
 
     }
 };
- console.log(john.calculateAge(1990));
+ john.calculateAge();
+ console.log(john);
+
+
+//This keyword is more universal than the direct object name itself. Can be useful through out the JavaScript. - this.function -
+ var mark = {
+    name: 'Mark',
+    lastName: 'Smith',
+    yearOfBirth: 1990,
+    job: 'teacher',
+    isMarried: false,
+    //Objects can even hold arrays, other objects and functions
+    family: ['Goku', 'Gohan', 'Goten'],
+ 
+    calculateAge: function(yearOfBirth) {
+    // this.yearOfBirth refers to the object var john, yearOfBirth refers to the key inside of var john.     
+        //return 2016 -this.yearOfBirth;
+        this.age = 2016 - this.yearOfBirth;
+
+    }
+};
+ john.calculateAge();
+ console.log(mark);
+ */
+
+
+ //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// *Loops & Iteration
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
